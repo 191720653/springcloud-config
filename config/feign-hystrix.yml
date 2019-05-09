@@ -1,10 +1,15 @@
+server:
+  port: 8087
+
 spring:
   application:
-    name: config-client
-server:
-  port: 8091
+    name: eureka-client-feign-hystrix
+
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8081/eureka/
-test: test
+
+feign:
+  hystrix:
+    enabled: true

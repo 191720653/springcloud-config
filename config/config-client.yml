@@ -18,4 +18,4 @@ management:
         include: bus-refresh
 server:
   port: 8092
-test: test2
+test: test1
